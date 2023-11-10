@@ -1,0 +1,200 @@
+/* Cart.css */
+.main-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-form {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.cart-table {
+  /* width: 50%; Reduce the width of the cart table */
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px; /* Add border radius to both tables */
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #f0f0f0;
+}
+
+.product-image {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+}
+
+.bt {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity-box span {
+  margin: 0 10px;
+}
+
+.remove-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #d9534f;
+}
+
+.custom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.checkout-form {
+  margin-top: 20px;
+}
+
+.cart-total-table {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  display: inline-block; /* Display inline with the cart table */
+  /* width: calc(50% - 20px); Adjust the width as needed */
+  vertical-align: top; /* Align with the top of the cart table */
+}
+
+.cart-total-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-total-table th,
+.cart-total-table td {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+  color: black; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: 700; /* Font weight */
+  text-align: center; /* Center align text */
+}
+
+.coupon-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 10px; /* Add some spacing below the input */
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+  margin-left: 20px;
+  
+}
+
+.coupon-input:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.cart-table th {
+  background-color: #E2F4FF; /* Set background color */
+  color: black; /* Set text color */
+}
+.cart-total-table th
+ {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #E2F4FF; /* Set background color */
+  color: black; /* Set text color */
+  font-size: 20px; /* Font size */
+  font-weight: 700; /* Font weight */
+  text-align: center; /* Center align text */
+}
+.coupon-input::placeholder {
+  font-size: 20px; /* Increase the font size */
+  font-weight: 700; /* Increase the font weight */
+}
+.cart-table {
+  width: calc(50% - 10px); /* Adjust the width to occupy half of the available space minus 10px for gap */
+  border-collapse: collapse;
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+}
+
+.cart-total-table {
+  width: calc(50% - 10px); /* Adjust the width to occupy half of the available space minus 10px for gap */
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #dee2e6;
+  margin-top: 20px;
+  margin-left: 20px; /* Add margin to create a gap between tables */
+}
+
+.cart-next-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart-next-button:hover {
+  background-color: #1e7e34;
+}
+.checkout-button-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.checkout-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}

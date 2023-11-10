@@ -1,0 +1,72 @@
+.back12 {
+    background-color: transparent;
+    padding: 20px;
+    height: 860px;
+    padding-top: 70px;
+    background-size: cover;
+    background-image: url("https://thumbs.dreamstime.com/b/poppy-flowers-blurred-nature-background-banner-website-56842833.jpg");
+  }
+  .registration-form-container {
+    max-width: 500px;
+    margin: auto;
+    background: #c3dcf4;
+    padding: 20px;
+    border: 1px solid #c3c3c3;
+    border-radius: 25px;
+    box-shadow: 0  0  15px;
+    background: transparent;
+    /* background-image: url("https://cdn.pixabay.com/photo/2019/01/09/22/32/background-images-3924442_1280.jpg"); */
+    
+  
+  }
+  form{
+    height: 700px;
+  }
+  
+  .reg {
+    text-align: center;
+    color: rgb(6, 14, 229);
+    font-size: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='date'],
+  select {
+    width: calc(90% - 15px);
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 0.5px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  button {
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(13, 20, 219);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 200px;
+  }
+
+  /* .col-2 img{
+    width: 400px;
+    height: 730px;
+    padding-left: 421px;
+    margin-top: -690px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  } */

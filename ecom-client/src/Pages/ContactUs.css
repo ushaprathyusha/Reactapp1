@@ -1,0 +1,151 @@
+/* Header Style */
+.header {
+    height: 220px;
+    background-size: cover;
+    color: rgb(6, 122, 33);
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+  }
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0; /* Change border-radius to 0 */
+    border: 2px solid #ccc; /* Change border to gray color */
+    /* ... your existing styles ... */
+  }
+  
+  /* Contact Container Style */
+  .contact-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  /* Contact Form Style */
+  .contact-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 48%;
+    padding: 10px;
+    border:2px solid #ccc;
+    color: rgb(224, 110, 110);
+    border-color:black;
+    background-color:white;
+    color: white;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: rgb(6, 255, 255);
+  }
+  
+  .button[type="submit"] {
+    background-color: beige;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .button[type="submit"]:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Google Maps Iframe Style */
+  iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Head Style */
+  .head {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .contact-form {
+      margin-top: 20px;
+      max-width: 100%;
+    }
+  
+    iframe {
+      margin-top: 20px;
+      max-width: 100%;
+    }
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #555; /* Existing color */
+  }
+  
+  /* Add this rule to change label color */
+  .form-group label {
+    color: #000000; /* Change color to your preferred color */
+  }
+  .cts-btn-success {
+    background-color: #2cafec; /* Button background color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .cts-btn-success:hover {
+    background-color: #2cafec; /* Change background color on hover */
+  }
+  

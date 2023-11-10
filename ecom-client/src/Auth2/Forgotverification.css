@@ -1,0 +1,91 @@
+.fgv-bgcontainer {
+    /* background-color: aliceblue; */
+    background-image: url(forgot-back.png);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .fgv-cardcontainer {
+    /* background-color: #ffffff; */
+    padding: 30px;
+    margin: 20px;
+    height: 60vh;
+  }
+  .fgv-field {
+    margin-bottom: 20px;
+  }
+  .fgvheadername {
+    color: #3d48e3;
+    color:#ffffff
+  }
+  .fgvpara {
+    margin-bottom: 40px;
+    color:purple;
+    font-weight: bold;
+  }
+  .fgv-field {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .fgv-input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3d48e3;
+    border-radius: 5px;
+  }
+  .fgv-button-field button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3d48e3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 768px) {
+    .fgv-bgcontainer {
+      flex-direction: column;
+    }
+  
+    .fgv-cardcontainer {
+      height: auto;
+    }
+  
+    .fgv-input-field input {
+      width: 100%;
+    }
+  
+    .fgv-button-field button {
+      width: 100%;
+    }
+  }
+  
+  /* Styles for even smaller screens (e.g., smartphones) */
+  @media (max-width: 480px) {
+    .fgv-cardcontainer {
+      padding: 20px;
+    }
+  
+    .fgvheadername {
+      font-size: 24px;
+    }
+  
+    .fgvpara {
+      margin-bottom: 30px;
+    }
+  
+    .fgv-input-field input {
+      padding: 8px;
+    }
+  
+    .fgv-button-field button {
+      padding: 8px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+h1{
+    font-size: 30px;
+    color: rgb(230, 120, 206);
+}
+p{
+    font-size: 30px;
+    color: rgb(230, 120, 206);
+}
+.family01{
+    width: 1200px;
+    height: 500px;
+    margin-left: 10px;
+}
+.family00{
+    width: 1200px;
+    height: 600px;
+    margin-left: 20px;
+}
+.family011{
+    width: 1100px;
+    height: 600px;
+    margin-left: 10px;
+}

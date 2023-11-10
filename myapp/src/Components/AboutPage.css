@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(243, 240, 237);
+}
+.family{
+    width: 1250px;
+    height: 600px;
+    margin-left: 10px;
+
+}
+p{
+    font-size: 20px;
+}
+h2{
+    margin-left: 400px;
+    margin-top: -350px;
+    color: rgb(240, 72, 240);
+    font-size: 35px;
+    font-style: italic;
+}
+.family1{
+    margin-top: 20px;
+    height: 500px;
+    width: 500px;
+    margin-left: 10px;
+}
+h4{
+    margin-top: 350px;
+    font-size: 35px;
+    margin-left: 20px;
+    color: rgb(236, 136, 201);
+    margin-left: 50px;
+}
+.family2{
+    margin-top: 20px;
+    height: 500px;
+    width: 500px;
+    margin-left: 50px;
+}
+.family3{
+    width: 1200px;
+    height: 600px;
+    margin-left: 30px;
+}
+.family11{
+    margin-left: 800px;
+    width: 500px;
+    height: 500px;
+    margin-top: -400px;
+}

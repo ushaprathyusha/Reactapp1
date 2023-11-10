@@ -1,0 +1,128 @@
+.y1{
+  width: 280px;
+  height: 200px;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+.y1:hover{
+  opacity: 0.7; 
+  transform: scale(1.05);
+}
+.p01 h3{
+    margin-left: 200px;
+    font-size: 30px;
+}
+.p01 p{
+  margin-top: -50px;
+  margin-left: 350px;
+}
+.b1{
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius:20px ;
+  background-color: rgb(224, 58, 155);
+}
+.y2{
+  width: 280px;
+  height: 200px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.y2:hover{
+  opacity: 0.7; 
+  transform: scale(1.05);
+}
+.p02 h3{
+  margin-left: 150px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+.p02 p{
+  margin-top: -50px;
+  margin-left: 400px;
+}
+.b2{
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius:20px ;
+  background-color: rgb(224, 58, 155);
+}
+.y3{
+  margin-left: 680px;
+  position: absolute;
+  margin-top: -880px;
+  width: 400px;
+  height: 500px;
+}
+.y3:hover{
+  opacity: 0.7; 
+  transform: scale(1.05);
+}
+.p03 h3{
+  
+    font-size: 30px;
+    position: absolute;
+   text-align: end;
+   margin-left: 800px;
+   margin-top: -500px;
+}
+.p03 p{
+  margin-top: -480px;
+  margin-left: 1000px;
+  position: absolute;
+}
+.b3{
+  margin-left: 840px;
+  margin-top: -420px;
+  width: 150px;
+  height: 50px;
+  border-radius:20px ;
+  background-color: rgb(224, 58, 155);
+  position: absolute;
+}
+.y4{
+  width: 350px;
+  height: 150px;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -330px;
+}
+.p04 h3{
+  
+  font-size: 30px;
+  position: absolute;
+ text-align: end;
+ margin-left: 800px;
+ margin-top: -140px;
+}
+.p04 p{
+  margin-top: -100px;
+  margin-left: 1000px;
+  position: absolute;
+}
+.b4{
+  margin-left: 840px;
+  margin-top: -50px;
+  width: 150px;
+  height: 50px;
+  border-radius:20px ;
+  background-color: rgb(224, 58, 155);
+  position: absolute;
+}
+.y4:hover{
+  opacity: 0.7; 
+  transform: scale(1.05);
+}
+.y5{
+  width: 1200px;
+  height: 500px;
+  margin-left: 40px;
+}
+.y5:hover{
+  opacity: 0.7; 
+  transform: scale(1.05);
+}
