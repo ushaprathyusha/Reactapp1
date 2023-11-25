@@ -1,0 +1,126 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import '@syncfusion/ej2-react-schedule/styles/material.css';
+@import '@syncfusion/ej2-base/styles/material.css';
+@import '@syncfusion/ej2-inputs/styles/material.css';
+@import '@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '@syncfusion/ej2-dropdowns/styles/material.css';
+@import '@syncfusion/ej2-calendars/styles/material.css';
+@import '@syncfusion/ej2-navigations/styles/material.css';
+@import '@syncfusion/ej2-popups/styles/material.css';
+@import '@syncfusion/ej2-lists/styles/material.css'; */
+
+
+
+
+.outsideborder99{
+  height: auto;
+  border: 5px solid whitesmoke;
+  border-radius: 2px;
+  position: relative;
+  margin-left: 35%;
+  padding: 2px;
+  width: 40%;
+  margin-top: 10px;
+  /* margin-top: 50px; */
+}
+
+.attendance99 {
+  font-size: medium;
+  color: rgb(239, 239, 244);
+  margin-left:40px;
+}
+
+.manage-employee99{
+  font-size: x-large;
+  color: rgb(236, 236, 247);
+  justify-content: center;
+  margin-left: 25%;
+  text-shadow: 5px 5px 5px rgb(218, 70, 70), 0 0 50px rgb(136, 201, 248);
+}
+
+.line99 {
+  border: 1px solid rgb(234, 234, 239);
+  border-radius: 2px;
+  width: auto;
+  margin:0px 20px 0px 20px;
+
+}
+
+
+.outsideborderr99 {
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(138, 138, 245); */
+
+}
+
+p{
+    color: #f0ebeb;
+    /* margin-left: 10%; */
+}
+
+
+
+
+.manage-button99{
+  padding: 10px 20px;
+  background-color: rgb(102, 104, 234);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+.manage-button99:hover{
+    background-color: rgb(163, 65, 228);
+}
+.Home99{
+    background-image: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-top: -10px;
+}
+.manage-button199{
+  padding: 10px 20px;
+  background-color: rgb(102, 104, 234);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+.manage-button199:hover{
+  background-color: rgb(163, 65, 228);
+}
+
+
+
+
+@media (max-width:768px) {
+
+  .outsideborder99{
+    height: 170px;
+    border: 5px solid whitesmoke;
+    border-radius: 2px;
+    position: relative;
+    margin-left: 40px;
+    padding: 2px;
+    width: 25rem;
+    margin-top: 10px;
+    /* margin-top: 50px; */
+  }
+  
+
+
+
+
+
+
+
+    
+    
+}

@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+ import Dashboard from './Dashbord/Dashboard';
+// import LoginMERN from './login/LoginForm';
+// import FormDataMERN from './login/FetchDataComponent';
+// import FormMERN from './login/RegisterForm';
+// import FileUpload from './login/FileUpload';
+import Employees from './Add employee/Employees';
+// import Manage from './ManageEmployee/ManageEmployee'
+import ManageEmployee from './ManageEmployee/ManageEmployee';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+<Router>
+        <Routes>
+        
+          {/* {/* <Route path='/' element={<LoginMERN/>}/> */}
+          <Route path='/Manage' element={<ManageEmployee/>}/>
+          {/* <Route path='/' element={<FormDataMERN/>}/> */} 
+          <Route path='/Employees' element={<Employees/>}/>
+         
+        </Routes>
+      </Router>
+      
+
+      {/* <FileUpload/> */}
+      {/* <Dashboard/> */}
+      
+      </div>
+    
   );
-}
+};
 
 export default App;

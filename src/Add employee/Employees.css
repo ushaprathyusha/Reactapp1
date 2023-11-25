@@ -1,0 +1,241 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import '@syncfusion/ej2-react-schedule/styles/material.css';
+@import '@syncfusion/ej2-base/styles/material.css';
+@import '@syncfusion/ej2-inputs/styles/material.css';
+@import '@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '@syncfusion/ej2-dropdowns/styles/material.css';
+@import '@syncfusion/ej2-calendars/styles/material.css';
+@import '@syncfusion/ej2-navigations/styles/material.css';
+@import '@syncfusion/ej2-popups/styles/material.css';
+@import '@syncfusion/ej2-lists/styles/material.css'; */
+
+
+
+
+
+
+
+.line {
+  border: 1px solid rgb(230, 230, 239);
+  border-radius: 2px;
+  width: auto;
+  margin:0px 20px 0px 20px;
+
+}
+
+.fields{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width:35rem;
+  margin-left: 50px;
+}
+
+.employee-fields98{
+  width: 23rem;
+  padding: 10px;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  justify-content: right;
+  
+}
+.employee-date98{
+  border-radius: 2%;
+  height: 50px;
+  border-color: darkblue;
+  border-radius: 4px;
+  background-color: hsl(0, 0%, 90%);
+  border-left: 2px solid darkblue;
+  margin-right: 10px;
+  border-top: 2px solid darkblue;
+}
+.employee-form-container000{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  height: 60%;
+  margin-left: 35%;
+  /* background-image: url('logo.svg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: 0 0 0 35px white;
+}
+
+.form-title01 {
+  color: aliceblue;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(237, 77, 77), 0 0 50px rgb(136, 201, 248);
+  
+}
+.home01{
+  background-image: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg');
+  background-size: cover;
+  height: 1000px;
+ 
+}
+
+
+
+/* .employee-group { */
+  /* margin-bottom: 50px;
+  background-color:  hsl(0, 0%, 90%); */
+ 
+/* } */
+
+.employee-label98{
+ margin-right: 60px;
+  color:rgb(234, 234, 241);
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.employee-labels98{
+  margin-top: 15px;
+  color:rgb(252, 251, 251);
+}
+label {
+  color: rgb(241, 241, 242);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+
+.employee-button98{
+  padding: 10px 20px;
+  background-color: rgb(105, 168, 231);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10rem;
+  margin-top: 40px;
+  margin-left: 50%;
+  /* height: 3rem; */
+  font-size: 20px;
+}
+.employee-button98:hover{
+  background-color: rgb(151, 129, 222);
+}
+
+  label {
+    display: inline-block;
+    width: 8rem;
+    text-align: right;
+  }
+.error-message98 {
+  color:red;
+}
+
+.employee-labels198{
+  margin-left: 10px;
+  color: azure;
+  font-size: 20px;
+}
+.employee-labels298{
+  margin-left: 4%;
+  color: rgb(244, 243, 243);
+  font-size: 20px;
+}
+@media (max-width:768px) {
+
+
+  .employee-form-container000{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50rem;
+    height: 53rem;
+    margin-left: 10px;
+    /* background-image: url('logo.svg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: 0 0 0 35px white;
+  }
+  .form-title01 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: -240px;
+    text-shadow: 5px 5px 5px rgb(231, 22, 22), 0 0 50px rgb(136, 201, 248);
+  }
+  .employee-group98{
+    margin-left: ;
+    
+  }
+  
+  .employee-label98{
+    margin-right: 40px;
+     color:rgb(234, 234, 241);
+     margin-top: 15px;
+     font-size: 15px;
+   }
+
+  .fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width:12rem;
+    margin-left: 13px;
+  }
+  .employee-fields98{
+    width: 13rem;
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    justify-content: left;
+    
+    
+  }
+  .lablename{
+    margin-left: 10px;
+  }
+  .employee-labels198{
+    margin-left: 20px;
+    color: azure;
+    font-size: 15px;
+  }
+  .employee-labels298{
+    margin-left: 2%;
+    color: rgb(244, 243, 243);
+    font-size: 15px;
+  }
+  .employee-labels98{
+    margin-top: 15px;
+    color:rgb(252, 251, 251);
+    margin-left: -30px;
+    font-size: 13px;
+  }
+  .error-message98 {
+    color:red;
+    /* margin-left: px; */
+  }
+   .Total{
+    overflow: hidden;
+  } 
+  .home{
+        background-image: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg');
+
+    background-size: cover;
+    /* height: 400%; */
+   
+  }
+ 
+  .employee-button98{
+    padding: 10px 20px;
+    background-color: rgb(105, 168, 231);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 8rem;
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 3rem;
+    font-size: 20px;
+  }
+}
